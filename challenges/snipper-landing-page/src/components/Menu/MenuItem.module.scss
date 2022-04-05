@@ -1,0 +1,11 @@
+@use '../../variables.scss' as v;
+
+.menuItem {
+  cursor: pointer;
+  width: 100%;
+  padding: 0.8em;
+
+  &:hover {
+    background-color: transparentize(darken(v.getTheme(white), 10%), 0.2);
+  }
+}

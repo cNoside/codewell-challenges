@@ -1,0 +1,42 @@
+@use '../../variables.scss' as v;
+@use '../../animations.scss' as a;
+
+.button {
+  border-radius: 5px;
+  padding: 0;
+}
+
+.solid {
+  color: v.getTheme(white);
+  background-color: v.getTheme(black);
+  padding: 1em;
+
+  &:hover {
+    background-color: lighten(v.getTheme(black), 10%);
+  }
+
+  &:active {
+    background-color: lighten(v.getTheme(black), 20%);
+    transition: 0.1s;
+  }
+  
+  &:focus {
+    box-shadow: 0 0 0 3px transparentize(lighten(v.getTheme(black), 50%), 0.15);
+  }
+  transition: 0.3s;
+
+}
+
+.link {
+  &:hover {
+    color: lighten(v.getTheme(black), 40%)
+  }
+  &:active {
+    color: v.getTheme(black);
+    transition: 0.1s;
+  }
+  transition: 0.3s;
+
+  margin: 1em;
+  width: max-content;
+}

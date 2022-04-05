@@ -1,0 +1,42 @@
+$font-weights: (
+  normal: 400,
+  semiBold: 600,
+  bold: 700
+);
+
+$viewports: (
+  mobile: '414px',
+  tablet: '768px',
+  desktop: '1440px'
+);
+
+$theme: (
+  black: rgb(0, 0, 0),
+  gray: hsl(0, 0%, 22%),
+  lightGray: hsl(0, 0%, 68%),
+  white: hsl(0, 0%, 100%)
+);
+
+@function getWeight($weight) {
+  @return map-get($font-weights, $weight);
+}
+
+@function getTheme($color) {
+  @return map-get($theme, $color);
+}
+
+@function getSize($size) {
+  @return map-get($viewports, $size);
+}
+
+@mixin mediaMin($size) {
+  @media (min-width: getSize($size)) {
+    @content;
+  }
+}
+
+@mixin mediaMax($size) {
+  @media (max-width: getSize($size)) {
+    @content;
+  }
+}

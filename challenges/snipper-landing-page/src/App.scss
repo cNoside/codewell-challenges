@@ -1,0 +1,37 @@
+@use './variables.scss' as v;
+@use './animations.scss' as a;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  // overflow-x: hidden;
+}
+
+body {
+  background-color: v.getTheme(white);
+}
+
+a {
+  text-decoration: none;
+  color: v.getTheme(black);
+  @include a.linkAnimation1(v.getTheme(black));
+}
+
+p {
+  color: v.getTheme(gray);
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
