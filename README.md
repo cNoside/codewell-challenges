@@ -9,5 +9,5 @@
 ## In Progress
 - snipper-landing-page
   - challenge [here](https://www.codewell.cc/challenges/snipper-landing-page--608bbe67e0984a001540d79b)
-  - source code [WIP](https://github.com/cNoside/codewell-challenges/#)
+  - source code [here](https://github.com/cNoside/codewell-challenges/tree/main/challenges/snipper-landing-page)
   - live app [here](https://cnoside.github.io/snipper-landing-page/)
