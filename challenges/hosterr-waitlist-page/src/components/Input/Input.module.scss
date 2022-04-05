@@ -1,0 +1,23 @@
+@use '../../variables.scss' as v;
+
+.input {
+  border: none;
+  border-radius: 8px;
+  padding: 0.8em 1em;
+
+  &:hover {
+    box-shadow: 0 0 0 1px darken(v.getTheme(white), 10%);
+    transition: 0s;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 4px transparentize(lighten(v.getTheme(blue), 25%), 0.1);
+    transition: 0.3s;
+  }
+
+  &:focus-visible {
+    outline: none;
+  }
+
+  transition: 0.3s;
+}

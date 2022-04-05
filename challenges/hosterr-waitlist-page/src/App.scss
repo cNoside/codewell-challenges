@@ -1,0 +1,44 @@
+@use './variables.scss' as v;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display:wght@400;700&display=swap');
+
+:root {
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: v.getTheme(paleSkin);
+}
+
+a {
+  text-decoration: none;
+  color: v.getTheme(black);
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+.App {
+  padding: 0;
+  padding: 0 1rem;
+  @include v.mediaMin(tablet) {
+    padding: 0 4vw;
+  }
+  @include v.mediaMin(desktop) {
+    padding: 0 10vw;
+  }
+}
+
+main {
+  margin-bottom: 50px;
+  @include v.mediaMin(desktop) {
+    margin-bottom: 80px;
+  }
+}

@@ -1,0 +1,31 @@
+@use '../../variables.scss' as v;
+
+.menu {
+  &:global(.close) {
+    transform: scale(0);
+    opacity: 0;
+  }
+  &:global(.open) {
+    transform: scale(1);
+    opacity: 1;
+  }
+  transform-origin: top right;
+  transition: 0.2s ease-in;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  background-color: lighten(v.getTheme(paleSkin), 2%);
+  border: 1px solid gray;
+  padding: 0.4em 0.8em;
+  width: max-content;
+
+  hr {
+    width: 100%;
+    margin: 0;
+  }
+}

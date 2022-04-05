@@ -1,0 +1,30 @@
+@use '../../variables.scss' as v;
+@use '../../animations.scss' as a;
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+
+  flex-direction: column;
+  gap: 40px;
+  @include v.mediaMin(tablet) {
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .socials {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    & > a {
+      height: max-content;
+      @include a.linkAnimation1(black);
+    }
+  }
+
+  .help {
+    font-family: 'Playfair Display', serif;
+  }
+}

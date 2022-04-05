@@ -1,0 +1,40 @@
+@use '../../variables.scss' as v;
+
+.illustration {
+  position: relative;
+  margin-left: 100px;
+  width: 320px;
+  height: 320px;
+  @include v.mediaMin(tablet) {
+    width: 475px;
+    height: 475px;
+  }
+
+  & > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 100%;
+  }
+
+  & > :nth-child(1) {
+    display: block;
+    z-index: 4;
+  }
+
+  & > :nth-child(2) {
+    transform: rotate(-15deg);
+    z-index: 3;
+  }
+
+  & > :nth-child(3) {
+    transform: rotate(-30deg);
+    z-index: 2;
+  }
+
+  & > :nth-child(4) {
+    transform: rotate(-45deg);
+    z-index: 1;
+  }
+}
