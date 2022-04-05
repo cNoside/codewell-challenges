@@ -16,6 +16,7 @@ Codewell is an online platform that provides free web designs for developers to 
 - Express
 - React@Vite
 - Sass or Chakra-UI
+*Note - MongoDB and Express only used on some applications*
 
 ## Submissions
 ### Hosterr Waitlist
