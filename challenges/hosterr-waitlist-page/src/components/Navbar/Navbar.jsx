@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.left}>
-        <a href="/">
+        <a href="./">
           <Logo className={styles.logo} />
         </a>
         <Button className={styles.hiringButton}>Hosterr is hiring!</Button>
