@@ -20,13 +20,19 @@ Codewell is an online platform that provides free web designs for developers to 
 
 ## Submissions
 ### Hosterr Waitlist
-![image](https://user-images.githubusercontent.com/82776299/161784190-0176125f-bc07-4927-bd82-cf592096d074.png)
+<a href="https://cnoside.github.io/hosterr-waitlist-page/">
+  <img src="https://user-images.githubusercontent.com/82776299/161784190-0176125f-bc07-4927-bd82-cf592096d074.png" />
+</a>
+
 - Challenge [here](https://www.codewell.cc/challenges/hosterr-waitlist-page--60b3ea4c0cc72310b5a2494d)
 - Source Code [here](https://github.com/cNoside/codewell-challenges/tree/main/challenges/hosterr-waitlist-page)
 - Live App [here](https://cnoside.github.io/hosterr-waitlist-page/)
 
 ### Snipper Landing
-![image](https://user-images.githubusercontent.com/82776299/161785143-60214b31-c411-4517-a9dc-ad9594a0baa6.png)
+<a href="https://cnoside.github.io/snipper-landing-page/">
+  <img src="https://user-images.githubusercontent.com/82776299/161785143-60214b31-c411-4517-a9dc-ad9594a0baa6.png" />
+</a>
+
 - Challenge [here](https://www.codewell.cc/challenges/snipper-landing-page--608bbe67e0984a001540d79b)
 - Source code [here](https://github.com/cNoside/codewell-challenges/tree/main/challenges/snipper-landing-page)
 - Live app [here](https://cnoside.github.io/snipper-landing-page/)
