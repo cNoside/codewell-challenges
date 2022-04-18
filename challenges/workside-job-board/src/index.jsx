@@ -9,7 +9,7 @@ import theme from './config/chakraTheme';
 ReactDOM.createRoot(document.getElementById('app')).render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
-      <BrowserRouter>
+      <BrowserRouter basename='/workside-job-board/'>
         <ColorModeScript initialColorMode={theme.config.initialColorMode} />
         <App />
       </BrowserRouter>
