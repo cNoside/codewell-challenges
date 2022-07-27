@@ -20,7 +20,7 @@ Codewell is an online platform that provides free responsive web designs for dev
 
 ## Submissions
 ### Hosterr Waitlist
-<a href="https://cnoside.dev/hosterr-waitlist-page/">
+<a href="https://cnoside.github.io/hosterr-waitlist-page/">
   <img src="https://user-images.githubusercontent.com/82776299/161784190-0176125f-bc07-4927-bd82-cf592096d074.png" />
 </a>
 
@@ -29,7 +29,7 @@ Codewell is an online platform that provides free responsive web designs for dev
 - Live App [here](https://cnoside.github.io/hosterr-waitlist-page/)
 
 ### Snipper Landing
-<a href="https://cnoside.dev/snipper-landing-page/">
+<a href="https://cnoside.github.io/snipper-landing-page/">
   <img src="https://user-images.githubusercontent.com/82776299/161785143-60214b31-c411-4517-a9dc-ad9594a0baa6.png" />
 </a>
 
@@ -38,7 +38,7 @@ Codewell is an online platform that provides free responsive web designs for dev
 - Live app [here](https://cnoside.github.io/snipper-landing-page/)
 
 ### Workside Job Board
-<a href="https://cnoside.dev/workside-job-board/">
+<a href="https://cnoside.github.io/workside-job-board/">
   <img src="https://user-images.githubusercontent.com/82776299/163844841-2da63553-3a6a-4738-980b-d4445e8b0656.png" />
 </a>
 
